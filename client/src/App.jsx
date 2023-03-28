@@ -2,25 +2,28 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MyNavBar from "./components/Navbar";
 import ListStudents from "./components/ListStudents";
-import { Modal } from "react-bootstrap";
-import ModalComponent from "./components/Modal";
 
 function App() {
 	return (
 		<div>
 			{/* <MyNavBar /> */}
-			<div className="mockup-phone border-primary">
-				<div className="camera"></div>
-				<div className="display">
-					<div className="artboard artboard-demo phone-1">
-						<ListStudents />
-					</div>
-				</div>
-			</div>
-			{/* <div className="App"> */}
+
+		{/* <ListStudents /> */}
 
 			{/* <ModalComponent /> */}
+
+			<div class="site">
+				<div class="phone">
+					<div class="phone_mic"></div>
+					<div class="phone_screen">
+						<ListStudents />
+					</div>
+					<div class="phone_button"></div>
+				</div>
+			</div>
 		</div>
+
+
 		// </div>
 	);
 }

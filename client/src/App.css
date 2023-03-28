@@ -29,6 +29,7 @@ a.navbar-brand {
 
 ul {
 	list-style-type: none;
+	padding-left: 0 !important;
 }
 
 form {
@@ -75,4 +76,65 @@ button.btn.btn-primary {
 
 .contact-body {
 	margin: 3rem;
+}
+/* phone */
+
+/* phone */
+.site {
+	position: relative;
+	min-height: 100vh;
+	padding: 2rem;
+	display: grid;
+	place-items: center;
+	background-color: #89d1bf;
+}
+
+.phone {
+	--black5: #404040;
+	--black4: #505050;
+
+	z-index: 1;
+	width: 15rem;
+	height: 26rem;
+	padding: 0 0.5rem;
+	border: 0.25rem solid var(--black5);
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	background-color: #eaeaea;
+	box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+	transition: all 0.3s;
+	overflow: auto;
+}
+
+
+.phone_mic {
+	height: 0.25rem;
+	width: 4rem;
+	margin: 1rem auto;
+	border-radius: 999rem;
+	background-color: var(--black4);
+}
+.phone_screen {
+	position: relative;
+	flex: 1 0 auto;
+	background-color: var(--black4);
+}
+.phone_screen::before {
+	content: "";
+	display: block;
+	/* position: absolute; */
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.3);
+	clip-path: polygon(70% 0, 100% 0%, 100% 100%, 30% 100%);
+}
+.phone_button {
+	width: 1.5rem;
+	height: 1.5rem;
+	border: 2px solid var(--black4);
+	border-radius: 50%;
+	margin: 1rem auto;
 }
