@@ -6,11 +6,7 @@ import ListStudents from "./components/ListStudents";
 function App() {
 	return (
 		<div>
-			{/* <MyNavBar /> */}
-
-		{/* <ListStudents /> */}
-
-			{/* <ModalComponent /> */}
+			<MyNavBar />
 
 			<div class="site">
 				<div class="phone">
@@ -22,7 +18,6 @@ function App() {
 				</div>
 			</div>
 		</div>
-
 
 		// </div>
 	);

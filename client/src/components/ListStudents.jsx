@@ -58,7 +58,7 @@ const ListStudents = () => {
 	return (
 		<div className="mybody">
 			<div className="list-students">
-				<h2>Techtonica Participants </h2>
+				<h2>My Contacts </h2>
 				<ul>
 					{students.map((student) => {
 						return (

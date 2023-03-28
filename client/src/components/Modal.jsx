@@ -116,7 +116,7 @@ const ModalComponent = ({ onSaveStudent, editingStudent, onUpdateStudent }) => {
 
 			<Modal show={show} onHide={handleClose}>
 				<Modal.Header closeButton>
-					<Modal.Title>Modal heading</Modal.Title>
+					<Modal.Title>Add a New Contact</Modal.Title>
 				</Modal.Header>
 				<Modal.Body>
 					<Form className="form-students" onSubmit={handleSubmit}>

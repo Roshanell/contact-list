@@ -31,6 +31,7 @@ ul {
 	list-style-type: none;
 	padding-left: 0 !important;
 }
+/* form  */
 
 form {
 	flex-direction: column;
@@ -39,7 +40,6 @@ form {
 	margin-top: 3em;
 	flex: 1;
 }
-
 input[type="text"] {
 	display: inline-block;
 	margin-top: -10px;
@@ -86,7 +86,7 @@ button.btn.btn-primary {
 	padding: 2rem;
 	display: grid;
 	place-items: center;
-	background-color: #89d1bf;
+	background-color: #560bad;
 }
 
 .phone {
