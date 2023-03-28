@@ -14,10 +14,6 @@ app.get("/", (req, res) => {
 	res.json({ message: "Hola, from My template ExpressJS with React-Vite" });
 });
 
-app.get("/api/addStudent", (req, res) => {
-	res.json({ message: "Page to add student" });
-});
-
 // create the get request for students in the endpoint '/api/students'
 app.get("/api/students", async (req, res) => {
 	try {
