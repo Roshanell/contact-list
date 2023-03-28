@@ -92,7 +92,7 @@ app.put("/api/students/:studentId", async (req, res) => {
 	const values = [
 		updatedStudent.firstname,
 		updatedStudent.lastname,
-		updatedStudent.iscurrent,
+		updatedStudent.iscurrent, 
 		updatedStudent.email,
 		updatedStudent.phone,
 		updatedStudent.notes,
