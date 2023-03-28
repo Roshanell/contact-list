@@ -78,6 +78,9 @@ app.put("/api/students/:studentId", async (req, res) => {
 		firstname: req.body.firstname,
 		lastname: req.body.lastname,
 		iscurrent: req.body.is_current,
+		email: req.body.email,
+		phone: req.body.phone,
+		notes: req.body.notes,
 	};
 	console.log("In the server from the url - the student id", studentId);
 	console.log(
@@ -90,6 +93,9 @@ app.put("/api/students/:studentId", async (req, res) => {
 		updatedStudent.firstname,
 		updatedStudent.lastname,
 		updatedStudent.iscurrent,
+		updatedStudent.email,
+		updatedStudent.phone,
+		updatedStudent.notes,
 	];
 	try {
 		const updated = await db.query(query, values);
